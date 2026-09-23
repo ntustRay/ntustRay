@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#07111f"/>
       <stop offset="50%" stop-color="#0d1a35"/>
       <stop offset="100%" stop-color="#171737"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>
       <stop offset="50%" stop-color="#60a5fa"/>
       <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="150" rx="24" fill="url(#bg)" stroke="#263858"/>
-  <rect x="70" y="46" width="1060" height="2" rx="1" fill="url(#accent)" opacity=".72"/>
-  <text x="600" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#dce9fb" letter-spacing="2">BUILD  →  MEASURE  →  REFINE</text>
-  <text x="600" y="116" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#8ea5c2">Performance · maintainability · useful software</text>
+  <rect width="1200" height="170" rx="24" fill="url(#bg)" stroke="#263858"/>
+  <rect x="90" y="44" width="1020" height="4" rx="2" fill="url(#line)"/>
+  <path d="M422 89l16 16 30-34" fill="none" stroke="#67e8f9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="620" y="103" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="850" fill="#eef5ff">Build · Measure · Refine</text>
+  <text x="600" y="136" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="650" fill="#9db2ce">Performance · Maintainability · Useful Software</text>
 </svg>

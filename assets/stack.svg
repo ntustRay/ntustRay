@@ -1,41 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330">
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a1425"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081426"/>
       <stop offset="100%" stop-color="#111a34"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#22d3ee"/>
       <stop offset="50%" stop-color="#60a5fa"/>
       <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
   </defs>
-  <rect width="1000" height="270" rx="22" fill="url(#panel)" stroke="#243757"/>
-  <text x="36" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#7dd3fc" letter-spacing="2">ENGINEERING STACK</text>
-  <text x="36" y="72" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="750" fill="#f7fbff">From product UI to data layer</text>
-  <rect x="36" y="88" width="928" height="2" rx="1" fill="url(#line)" opacity=".7"/>
 
-  <g transform="translate(36 112)">
-    <rect width="286" height="124" rx="16" fill="#0c1b2e" stroke="#1d4f68"/>
-    <text x="22" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#67e8f9">01 · PRODUCT / FRONTEND</text>
-    <text x="22" y="59" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#f5fbff">React · TypeScript · Next.js</text>
-    <text x="22" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#9cb2cd">Zustand · Canvas · Storybook</text>
-    <text x="22" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#9cb2cd">Web Workers · responsive UX</text>
+  <rect width="1000" height="330" rx="24" fill="url(#bg)" stroke="#283a59"/>
+  <text x="40" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="800" fill="#7dd3fc" letter-spacing="2">ENGINEERING STACK</text>
+  <text x="40" y="86" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="800" fill="#f7fbff">UI → API → Data → Delivery</text>
+  <rect x="40" y="105" width="920" height="3" rx="1.5" fill="url(#accent)" opacity=".75"/>
+
+  <!-- Frontend -->
+  <g transform="translate(40 135)">
+    <rect width="286" height="152" rx="20" fill="#0b2032" stroke="#1e6678"/>
+    <rect x="24" y="24" width="60" height="60" rx="16" fill="#0b2a3b"/>
+    <rect x="38" y="38" width="32" height="24" rx="3" fill="none" stroke="#67e8f9" stroke-width="4"/>
+    <path d="M48 70h12M54 62v8" stroke="#67e8f9" stroke-width="4" stroke-linecap="round"/>
+    <text x="104" y="52" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="800" fill="#f5fbff">Frontend</text>
+    <text x="24" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="650" fill="#a7c0db">React · TypeScript</text>
+    <text x="24" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="650" fill="#a7c0db">Next.js · Canvas</text>
   </g>
 
-  <g transform="translate(357 112)">
-    <rect width="286" height="124" rx="16" fill="#10182f" stroke="#315d91"/>
-    <text x="22" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#93c5fd">02 · BACKEND / DATA</text>
-    <text x="22" y="59" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#f5f8ff">Node.js · SQL · DuckDB</text>
-    <text x="22" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#a7b7d4">API boundaries · aggregation</text>
-    <text x="22" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#a7b7d4">OPFS · client-side data flows</text>
+  <!-- Backend/Data -->
+  <g transform="translate(357 135)">
+    <rect width="286" height="152" rx="20" fill="#101d37" stroke="#3c6294"/>
+    <rect x="24" y="24" width="60" height="60" rx="16" fill="#122746"/>
+    <ellipse cx="54" cy="41" rx="17" ry="7" fill="none" stroke="#93c5fd" stroke-width="4"/>
+    <path d="M37 41v25c0 5 8 8 17 8s17-3 17-8V41M37 53c0 5 8 8 17 8s17-3 17-8" fill="none" stroke="#93c5fd" stroke-width="4"/>
+    <text x="104" y="52" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="800" fill="#f5f8ff">Data &amp; API</text>
+    <text x="24" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="650" fill="#adc0df">Node.js · SQL</text>
+    <text x="24" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="650" fill="#adc0df">DuckDB · OPFS</text>
   </g>
 
-  <g transform="translate(678 112)">
-    <rect width="286" height="124" rx="16" fill="#16172f" stroke="#54448e"/>
-    <text x="22" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#c4b5fd">03 · QUALITY / DELIVERY</text>
-    <text x="22" y="59" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#fbfaff">Vitest · Playwright · CI/CD</text>
-    <text x="22" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#b8b5d2">Backward compatibility</text>
-    <text x="22" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#b8b5d2">GitLab · Azure · Docker</text>
+  <!-- Quality -->
+  <g transform="translate(674 135)">
+    <rect width="286" height="152" rx="20" fill="#18182f" stroke="#66518f"/>
+    <rect x="24" y="24" width="60" height="60" rx="16" fill="#241f42"/>
+    <path d="M43 36h22M49 36v12L38 70h32L59 48V36" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="104" y="52" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="800" fill="#fbfaff">Quality</text>
+    <text x="24" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="650" fill="#c0bad9">Vitest · Playwright</text>
+    <text x="24" y="138" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="650" fill="#c0bad9">Storybook · CI/CD</text>
   </g>
 </svg>
