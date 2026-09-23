@@ -37,7 +37,6 @@
 ## Selected Projects
 
 - [**Markdown File Reader**](https://github.com/ntustRay/markdown-file-reader) — Tauri Markdown reader，支援 dark mode。
-- [**Home Way**](https://github.com/ntustRay/home-way) — Next.js、TypeScript、Clerk、Prisma 與 Supabase 專案。
 - [**React DateTime Range Picker**](https://github.com/ntustRay/react-datetime-range-picker) — React 日期與時間區間選擇元件。
 
 ## Engineering Principles
