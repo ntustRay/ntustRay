@@ -13,7 +13,7 @@
 
 把複雜需求拆成可交付成果，從 UI、API 到資料層持續擴展工程能力。
 
-[GitHub Repositories](https://github.com/ntustRay?tab=repositories) · [Obsidian Notes](https://github.com/ntustRay/obsidian-mingray)
+[GitHub Repositories](https://github.com/ntustRay?tab=repositories)
 
 </div>
 
