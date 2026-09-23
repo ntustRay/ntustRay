@@ -1,55 +1,65 @@
-<!--
-  MingRay's GitHub profile README
-  Keep this page focused on engineering scope, selected work, and current direction.
--->
+<p align="center">
+  <img src="assets/header.svg" alt="MingRay — Full-Stack Engineer" width="100%" />
+</p>
 
-<div align="center">
-
-# MingRay
-
-### Full-Stack Engineer · Frontend & Data Visualization
-
-**React · TypeScript · Next.js · Node.js · DuckDB**
-
-把複雜需求拆成可交付成果，從 UI、API 到資料層持續擴展工程能力。
-
-[GitHub Repositories](https://github.com/ntustRay?tab=repositories)
-
-</div>
-
----
+<p align="center">
+  <a href="https://ntustray.github.io/mr-blog/"><strong>Blog</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/ntustRay?tab=repositories"><strong>Projects</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.npmjs.com/package/@ntustray/react-datetime-range-picker"><strong>npm</strong></a>
+</p>
 
 ## About
 
-我是 MingRay，具備資深前端開發與技術模組 owner 經驗，主要使用 **React** 和 **TypeScript**。目前專注在高效能 Canvas 圖表、大型資料處理，以及把產品能力從前端延伸到 **Next.js、Node.js API 與 SQL / DuckDB**。
+I'm **MingRay**, a **Full-Stack Engineer** with deep frontend experience and technical ownership across UI, application architecture, data processing, testing, and delivery.
 
-我重視清楚的模組邊界、穩定的資料流與 backward compatibility，並以可維護性和 runtime stability 作為工程品質的核心。
+I build **data-heavy web products and high-performance visualization systems**, with a strong focus on clear module boundaries, measurable performance, backward compatibility, and maintainable APIs.
 
-## Focus
+> 從產品 UI、API 到資料層，我重視的是：**做得出來、跑得穩、之後的人也維護得下去。**
 
-| 領域 | 關注方向 |
+<p align="center">
+  <img src="assets/stack.svg" alt="MingRay engineering stack" width="920" />
+</p>
+
+## What I work on
+
+- **Full-stack product delivery** — React / TypeScript / Next.js on the product side, Node.js / SQL / DuckDB on the data and API side.
+- **High-performance visualization** — Canvas rendering, large datasets, progressive rendering, zoom / pan, and worker-offloaded computation.
+- **Library & API design** — reusable TypeScript modules, controlled React APIs, migration awareness, and backward-compatible changes.
+- **Quality & delivery** — Vitest, Playwright, Storybook, CI/CD, release validation, and risk-focused code review.
+- **Technical ownership** — architecture boundaries, reusable engineering rules, blocker/risk surfacing, and helping teammates move work forward.
+
+<p align="center">
+  <img src="assets/architecture.svg" alt="Data-heavy product architecture and engineering targets" width="920" />
+</p>
+
+## Selected work
+
+| Project | What it demonstrates |
 | --- | --- |
-| **Frontend** | React、TypeScript、Zustand、Storybook、Web Workers |
-| **Visualization & Data** | Canvas rendering、large datasets、DuckDB、client-side aggregation |
-| **Full Stack** | Next.js、Node.js API、SQL、authentication、deployment |
-| **Quality & Delivery** | Vitest、Playwright、backward-compatible APIs、CI/CD |
+| [**React DateTime Range Picker**](https://github.com/ntustRay/react-datetime-range-picker) | Published React package with a timestamp-first API, IANA timezone handling, localization, React 18/19 support, CI, E2E and consumer testing. |
+| [**Ray Markdown Reader**](https://github.com/ntustRay/markdown-file-reader) | Android Markdown editor built with a web + native stack, local-file workflow, release documentation, and privacy-first product scope. |
+| [**MR Blog**](https://github.com/ntustRay/mr-blog) | Astro + TypeScript engineering blog with Markdown content, Pagefind search, Lighthouse checks, and GitHub Pages deployment. |
+| [**Agent Workspace Template**](https://github.com/ntustRay/agent-workspace-template) | Vendor-neutral project instructions for Codex, Claude, Cline, opencode, and other coding agents. |
 
-## Selected Projects
+## Engineering principles
 
-- [**Markdown File Reader**](https://github.com/ntustRay/markdown-file-reader) — Tauri Markdown reader，支援 dark mode。
-- [**React DateTime Range Picker**](https://github.com/ntustRay/react-datetime-range-picker) — React 日期與時間區間選擇元件。
+**Performance is a budget, not a feeling.** Measure dataset size, device/browser constraints, interaction latency, and before/after behavior.
 
-## Engineering Principles
+**Boundaries matter.** Keep rendering, domain logic, state, data processing, and UI integration separate enough to evolve safely.
 
-- **Performance at scale**：針對大型資料集設計 rendering 與資料處理流程。
-- **Compatibility by design**：以穩定 API 和資料 migration 維持既有使用情境。
-- **Ship, then refine**：先交付可驗證的成果，再持續改善品質。
+**Compatibility is a feature.** Public APIs and persisted settings deserve migration thinking rather than casual breaking changes.
+
+**Maintainable beats clever.** Prefer code that a teammate can understand, test, and change with confidence.
 
 ---
 
-<div align="center">
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ntustRay&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="MingRay GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ntustRay&layout=compact&hide_border=true&theme=transparent" alt="MingRay top languages" />
+</p>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=ntustRay&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="MingRay's GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ntustRay&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
-
-</div>
+<p align="center">
+  <img src="assets/footer.svg" alt="Build, measure, refine" width="100%" />
+</p>

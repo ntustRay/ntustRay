@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1425"/>
+      <stop offset="100%" stop-color="#111a34"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="270" rx="22" fill="url(#panel)" stroke="#243757"/>
+  <text x="36" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#7dd3fc" letter-spacing="2">ENGINEERING STACK</text>
+  <text x="36" y="72" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="750" fill="#f7fbff">From product UI to data layer</text>
+  <rect x="36" y="88" width="928" height="2" rx="1" fill="url(#line)" opacity=".7"/>
+
+  <g transform="translate(36 112)">
+    <rect width="286" height="124" rx="16" fill="#0c1b2e" stroke="#1d4f68"/>
+    <text x="22" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#67e8f9">01 · PRODUCT / FRONTEND</text>
+    <text x="22" y="59" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#f5fbff">React · TypeScript · Next.js</text>
+    <text x="22" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#9cb2cd">Zustand · Canvas · Storybook</text>
+    <text x="22" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#9cb2cd">Web Workers · responsive UX</text>
+  </g>
+
+  <g transform="translate(357 112)">
+    <rect width="286" height="124" rx="16" fill="#10182f" stroke="#315d91"/>
+    <text x="22" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#93c5fd">02 · BACKEND / DATA</text>
+    <text x="22" y="59" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#f5f8ff">Node.js · SQL · DuckDB</text>
+    <text x="22" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#a7b7d4">API boundaries · aggregation</text>
+    <text x="22" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#a7b7d4">OPFS · client-side data flows</text>
+  </g>
+
+  <g transform="translate(678 112)">
+    <rect width="286" height="124" rx="16" fill="#16172f" stroke="#54448e"/>
+    <text x="22" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#c4b5fd">03 · QUALITY / DELIVERY</text>
+    <text x="22" y="59" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#fbfaff">Vitest · Playwright · CI/CD</text>
+    <text x="22" y="85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#b8b5d2">Backward compatibility</text>
+    <text x="22" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#b8b5d2">GitLab · Azure · Docker</text>
+  </g>
+</svg>

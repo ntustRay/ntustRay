@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="52%" stop-color="#0b1730"/>
+      <stop offset="100%" stop-color="#11183a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="16%" cy="25%" r="48%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".20"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="88%" cy="70%" r="42%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#9fb8d8" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#glowA)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#glowB)"/>
+
+  <g opacity=".95">
+    <path d="M760 250 C825 210 850 264 905 205 S1020 132 1122 92" fill="none" stroke="url(#accent)" stroke-width="3" filter="url(#softGlow)"/>
+    <path d="M760 270 C820 235 875 285 930 245 S1040 190 1132 202" fill="none" stroke="#4f8cff" stroke-opacity=".35" stroke-width="1.5"/>
+    <circle cx="760" cy="250" r="5" fill="#22d3ee"/>
+    <circle cx="905" cy="205" r="5" fill="#60a5fa"/>
+    <circle cx="1122" cy="92" r="5" fill="#a78bfa"/>
+    <circle cx="930" cy="245" r="4" fill="#60a5fa" fill-opacity=".65"/>
+  </g>
+
+  <rect x="58" y="50" width="196" height="34" rx="17" fill="#0e2a3b" stroke="#22d3ee" stroke-opacity=".55"/>
+  <text x="156" y="72" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" fill="#67e8f9" letter-spacing="1.6">FULL-STACK ENGINEER</text>
+
+  <text x="58" y="160" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-2">MingRay</text>
+  <rect x="58" y="180" width="360" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <text x="58" y="224" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="650" fill="#d7e6fb">Frontend depth. Full-stack delivery.</text>
+  <text x="58" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#90a9c8">React · TypeScript · Next.js · Node.js · DuckDB · SQL</text>
+  <text x="58" y="292" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" fill="#8fa6c4">High-performance visualization · data-heavy products · maintainable systems</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700">
+    <rect x="786" y="287" width="112" height="28" rx="14" fill="#10243a" stroke="#22d3ee" stroke-opacity=".35"/>
+    <text x="842" y="306" text-anchor="middle" fill="#b6f5ff">UI</text>
+    <rect x="912" y="287" width="112" height="28" rx="14" fill="#151f3f" stroke="#60a5fa" stroke-opacity=".35"/>
+    <text x="968" y="306" text-anchor="middle" fill="#bfdbfe">API</text>
+    <rect x="1038" y="287" width="112" height="28" rx="14" fill="#211b43" stroke="#a78bfa" stroke-opacity=".4"/>
+    <text x="1094" y="306" text-anchor="middle" fill="#ddd6fe">DATA</text>
+  </g>
+</svg>
