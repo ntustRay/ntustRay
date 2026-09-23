@@ -23,7 +23,7 @@ I work across **UI, API, and data layers** with React, TypeScript, Next.js, Node
 ## System thinking
 
 <p align="center">
-  <img src="assets/architecture.svg" alt="Data-heavy application flow from data to UI" width="920" />
+  <img src="assets/architecture.svg" alt="High-level engineering flow" width="920" />
 </p>
 
 ## Featured work
