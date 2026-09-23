@@ -23,7 +23,7 @@
 
 我是 MingRay，具備資深前端開發與技術模組 owner 經驗，主要使用 **React** 和 **TypeScript**。目前專注在高效能 Canvas 圖表、大型資料處理，以及把產品能力從前端延伸到 **Next.js、Node.js API 與 SQL / DuckDB**。
 
-我重視清楚的模組邊界、穩定的資料流與 backward compatibility，也有帶領 3 人小型團隊、協助拆解工作和排除阻塞的經驗。
+我重視清楚的模組邊界、穩定的資料流與 backward compatibility，並以可維護性和 runtime stability 作為工程品質的核心。
 
 ## Focus
 
@@ -40,11 +40,11 @@
 - [**Home Way**](https://github.com/ntustRay/home-way) — Next.js、TypeScript、Clerk、Prisma 與 Supabase 專案。
 - [**React DateTime Range Picker**](https://github.com/ntustRay/react-datetime-range-picker) — React 日期與時間區間選擇元件。
 
-## What I Value
+## Engineering Principles
 
-- **Ship, then refine**：先交付可驗證的版本，再逐步提升品質。
-- **Own the outcome**：及早揭露風險，持續推進到可維護、可交接。
-- **Grow the team**：把經驗整理成文件、checklist 和可重用的工程實踐。
+- **Performance at scale**：針對大型資料集設計 rendering 與資料處理流程。
+- **Compatibility by design**：以穩定 API 和資料 migration 維持既有使用情境。
+- **Ship, then refine**：先交付可驗證的成果，再持續改善品質。
 
 ---
 
