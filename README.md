@@ -49,6 +49,28 @@ I work across **UI, API, and data layers** with React, TypeScript, Next.js, Node
 - 🛡️ **Compatibility** — stable APIs, migration thinking, safer releases.
 - 🧪 **Quality** — Vitest, Playwright, Storybook, CI/CD.
 
+## Latest articles
+
+<!-- BLOG:START -->
+Articles are refreshed automatically from [MR Blog](https://ntustray.github.io/mr-blog/).
+<!-- BLOG:END -->
+
+## Recently updated projects
+
+<!-- REPOS:START -->
+Projects are refreshed automatically from GitHub.
+<!-- REPOS:END -->
+
+## GitHub at a glance
+
+<p align="center">
+  <img src="assets/stats.svg" alt="Public GitHub repository statistics" width="48%" />
+  <img src="assets/top-langs.svg" alt="Language distribution by source bytes in public original repositories" width="48%" />
+</p>
+
+<!-- UPDATED:START -->
+<!-- UPDATED:END -->
+
 <p align="center">
   <img src="assets/footer.svg" alt="Build, measure, refine" width="100%" />
 </p>

@@ -1,0 +1,47 @@
+name: Update profile
+
+on:
+  schedule:
+    # 11:17 Asia/Taipei (03:17 UTC)
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_profile.py'
+      - '.github/workflows/update-profile.yml'
+      - 'README.md'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate README sections and SVG cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ntustRay
+        run: python scripts/update_profile.py
+      - name: Commit generated updates
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/stats.svg assets/top-langs.svg
+          if git diff --cached --quiet; then
+            echo 'Profile already up to date.'
+            exit 0
+          fi
+          git commit -m 'chore(profile): refresh daily public data'
+          git pull --rebase origin main
+          git push origin HEAD:main
