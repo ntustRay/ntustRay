@@ -52,13 +52,21 @@ I work across **UI, API, and data layers** with React, TypeScript, Next.js, Node
 ## Latest articles
 
 <!-- BLOG:START -->
-Articles are refreshed automatically from [MR Blog](https://ntustray.github.io/mr-blog/).
+- [Coding Agent 到底需要多少 Harness？176 組實驗拆開 Planning、Tools 與 Context](https://ntustray.github.io/mr-blog/posts/coding-agent-harness-176-configurations/)
+- [Bun + Biome：讓 Agent 每次重跑都快一點](https://ntustray.github.io/mr-blog/posts/bun-biome-agent-iteration-compound-time/)
+- [快訊：NVIDIA OpenShell，把 AI Agent 關進真正的安全邊界](https://ntustray.github.io/mr-blog/posts/nvidia-openshell-agent-security-boundary/)
+- [React 團隊為什麼把 ESLint + Prettier 換成 Biome](https://ntustray.github.io/mr-blog/posts/why-we-replaced-eslint-prettier-with-biome/)
+- [不要再只會 npm i：2026 我們為什麼改用 Bun](https://ntustray.github.io/mr-blog/posts/stop-using-npm-install-why-we-use-bun/)
 <!-- BLOG:END -->
 
 ## Recently updated projects
 
 <!-- REPOS:START -->
-Projects are refreshed automatically from GitHub.
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-14</sub>
+- [agent-workspace-template](https://github.com/ntustRay/agent-workspace-template) — template for new general ai-agent <sub>2026-09-28</sub>
+- [markdown-file-reader](https://github.com/ntustRay/markdown-file-reader) — A Tauri-based Markdown reader with dark mode support <sub>2026-09-18</sub>
+- [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-08-15</sub>
+- [2026-korea-busan-travel](https://github.com/ntustRay/2026-korea-busan-travel) — The travel instruction <sub>2026-07-30</sub>
 <!-- REPOS:END -->
 
 ## GitHub at a glance
@@ -69,6 +77,7 @@ Projects are refreshed automatically from GitHub.
 </p>
 
 <!-- UPDATED:START -->
+<sub>Updated 2026-10-14 · Public repositories only · [Daily refresh](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml)</sub>
 <!-- UPDATED:END -->
 
 <p align="center">
