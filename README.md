@@ -27,11 +27,11 @@ I write down what I learn along the way.
 ## Latest posts
 
 <!-- BLOG:START -->
-- [Coding Agent 到底需要多少 Harness？176 組實驗拆開 Planning、Tools 與 Context](https://ntustray.github.io/mr-blog/posts/coding-agent-harness-176-configurations/)
-- [Bun + Biome：讓 Agent 每次重跑都快一點](https://ntustray.github.io/mr-blog/posts/bun-biome-agent-iteration-compound-time/)
-- [快訊：NVIDIA OpenShell，把 AI Agent 關進真正的安全邊界](https://ntustray.github.io/mr-blog/posts/nvidia-openshell-agent-security-boundary/)
-- [React 團隊為什麼把 ESLint + Prettier 換成 Biome](https://ntustray.github.io/mr-blog/posts/why-we-replaced-eslint-prettier-with-biome/)
-- [不要再只會 npm i：2026 我們為什麼改用 Bun](https://ntustray.github.io/mr-blog/posts/stop-using-npm-install-why-we-use-bun/)
+- [Claude Mods 把擴充點放進 Runtime：什麼時候 Skill 已經不夠？](https://ntustray.github.io/mr-blog/posts/claude-mods-harness-runtime/)
+- [Gemini 4 Argon 跑了 11 小時，ADK 團隊只接受 2 個優化](https://ntustray.github.io/mr-blog/posts/gemini-4-argon-adk-review/)
+- [GitHub 把 Copilot Runtime 改成 80 萬行 Rust：長任務靠什麼撐住？](https://ntustray.github.io/mr-blog/posts/github-copilot-rust-migration-context/)
+- [GitLab Orbit 把 Code Context 放進 DuckDB，適合解決哪些搜尋問題？](https://ntustray.github.io/mr-blog/posts/gitlab-orbit-duckdb-code-context/)
+- [Model Routing 省下 64% 成本，先看清楚它怎麼衡量品質](https://ntustray.github.io/mr-blog/posts/model-routing-cost-quality/)
 <!-- BLOG:END -->
 
 <details>
@@ -55,5 +55,5 @@ I write down what I learn along the way.
 </p>
 
 <!-- UPDATED:START -->
-<sub>Updated daily by [GitHub Actions](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>Updated 2026-10-15 · [Updated daily by GitHub Actions](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
