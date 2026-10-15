@@ -1,6 +1,7 @@
-<p>
-  <img src="assets/header.svg" alt="MingRay, Full-Stack Engineer. React, TypeScript, Node.js, SQL." width="100%" />
-</p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/header-mobile.svg" />
+  <img src="assets/header.svg" alt="MingRay, Full-Stack Engineer. TypeScript, React, Canvas and DuckDB." width="100%" />
+</picture>
 
 [Blog](https://ntustray.github.io/mr-blog/) &nbsp;&nbsp; [Projects](https://github.com/ntustRay?tab=repositories) &nbsp;&nbsp; [npm](https://www.npmjs.com/package/@ntustray/react-datetime-range-picker)
 
@@ -21,26 +22,39 @@ I'm also exploring Web Workers and OPFS for browser data pipelines.
 
 ## Selected public work
 
-<table>
-  <tr>
-    <td width="54" valign="top"><img src="assets/calendar.svg" width="32" height="32" alt="" /></td>
-    <td>
-      <strong><a href="https://github.com/ntustRay/react-datetime-range-picker">React DateTime Range Picker</a></strong>
-      <p>A controlled React component for analytics and chart filters.</p>
-      <ul>
-        <li>Epoch milliseconds as the public value contract; IANA timezones for display and editing.</li>
-        <li>Separate draft changes from Apply/commit, with half-open <code>[start, end)</code> range semantics.</li>
-        <li>Validation, keyboard workflows, localization, and package-consumer checks for React 18/19 and SSR.</li>
-      </ul>
-      <p><a href="https://ntustray.github.io/react-datetime-range-picker/">Demo</a> · <a href="https://www.npmjs.com/package/@ntustray/react-datetime-range-picker">npm</a> · <a href="https://github.com/ntustRay/react-datetime-range-picker/blob/main/docs/PUBLIC_API.md">API contract</a> · <a href="https://github.com/ntustRay/react-datetime-range-picker/blob/main/scripts/verify-packed-consumers.mjs">Consumer checks</a></p>
-    </td>
-  </tr>
-</table>
+### [React DateTime Range Picker](https://github.com/ntustRay/react-datetime-range-picker)
+
+A controlled React component for analytics and chart filters.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/range-contract-mobile.svg" />
+  <img src="assets/range-contract.svg" alt="Public API: epoch-millisecond timestamps, IANA display timezones, separate onChange draft edits and onCommit on Apply, and half-open [start, end) ranges." width="100%" />
+</picture>
+
+- Epoch milliseconds as the public value contract; IANA timezones for display and editing.
+- Separate draft changes from Apply/commit, with half-open `[start, end)` range semantics.
+- Validation, keyboard workflows, localization, and package-consumer checks for React 18/19 and SSR.
+
+[Demo](https://ntustray.github.io/react-datetime-range-picker/) &nbsp; [npm](https://www.npmjs.com/package/@ntustray/react-datetime-range-picker) &nbsp; [API contract](https://github.com/ntustRay/react-datetime-range-picker/blob/main/docs/PUBLIC_API.md) &nbsp; [Consumer checks](https://github.com/ntustRay/react-datetime-range-picker/blob/main/scripts/verify-packed-consumers.mjs)
+
 
 Other projects:
 
 - [Agent Workspace Template](https://github.com/ntustRay/agent-workspace-template): a small `AGENTS.md` and task-workflow template, including [performance review](https://github.com/ntustRay/agent-workspace-template/blob/main/.agents/skills/performance-review/SKILL.md).
 - [Markdown Reader](https://github.com/ntustRay/markdown-file-reader): a side project for local Markdown editing, built with Tauri and TypeScript.
+
+## How I work with AI
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/decision-mobile.svg" />
+  <img src="assets/decision.svg" alt="A personal principle: AI can draft the code. I own the decision." width="100%" />
+</picture>
+
+- **Domain knowledge sets the direction.** AI changes how code is produced. I still need to understand the problem, recognize the constraints, and judge whether the result fits.
+- **Find the cause. Explain the trade-off.** I treat AI output as a proposal: trace the root cause, compare pros and cons, and bring evidence the team can challenge.
+- **Iterate before overdesigning.** Start with the smallest testable change. Add abstraction when constraints or repeated needs justify it, and keep the next change easy to make.
+- **Make “done” testable.** A useful spec defines behavior, acceptance criteria (AC), representative E2E checks, and a Definition of Done (DoD). Give the agent an outcome you can verify.
+- **Understand the diff before merging.** Fluent output can create false confidence. If I cannot explain a generated change, I investigate before merging. Read the MR/PR, verify uncertain behavior with teammates or domain experts, and make the trade-offs together.
 
 ## Technical writing
 
