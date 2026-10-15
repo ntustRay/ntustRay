@@ -4,27 +4,57 @@
 
 [Blog](https://ntustray.github.io/mr-blog/) &nbsp;&nbsp; [Projects](https://github.com/ntustRay?tab=repositories) &nbsp;&nbsp; [npm](https://www.npmjs.com/package/@ntustray/react-datetime-range-picker)
 
-I build web apps and charting tools.  
-I write down what I learn along the way.
+I'm MingRay, a Full-Stack Engineer working with TypeScript, React, Next.js, Canvas, and DuckDB.
+My current work involves large datasets and charting: how data is queried, how it reaches the renderer, and how the UI responds to interaction.
 
-## Projects
+Outside work, I build reusable components and small applications, and write about the decisions behind them.
+
+## What I work on
+
+| Area | The problems I spend time on |
+| --- | --- |
+| Charting and browser data | Query/render boundaries, coordinate transforms, DPR, and the memory cost of keeping data and render caches. |
+| React and component APIs | Controlled state, explicit data contracts, validation, and compatibility when consumers or requirements change. |
+| Development workflows | Behavior tests, code review, package-consumer checks, and project documentation that people and coding agents can follow. |
+
+I'm also exploring Web Workers and OPFS for browser data pipelines.
+
+## Selected public work
 
 <table>
   <tr>
-    <td width="64" align="center"><img src="assets/calendar.svg" width="40" height="40" alt="" /></td>
-    <td><a href="https://github.com/ntustRay/react-datetime-range-picker"><strong>DateTime Picker</strong></a><br />A React date and time range picker.</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/document.svg" width="40" height="40" alt="" /></td>
-    <td><a href="https://github.com/ntustRay/markdown-file-reader"><strong>Markdown Reader</strong></a><br />A desktop reader for Markdown files.</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/agent.svg" width="40" height="40" alt="" /></td>
-    <td><a href="https://github.com/ntustRay/agent-workspace-template"><strong>Agent Workspace</strong></a><br />A starting point for coding agents.</td>
+    <td width="54" valign="top"><img src="assets/calendar.svg" width="32" height="32" alt="" /></td>
+    <td>
+      <strong><a href="https://github.com/ntustRay/react-datetime-range-picker">React DateTime Range Picker</a></strong>
+      <p>A controlled React component for analytics and chart filters.</p>
+      <ul>
+        <li>Epoch milliseconds as the public value contract; IANA timezones for display and editing.</li>
+        <li>Separate draft changes from Apply/commit, with half-open <code>[start, end)</code> range semantics.</li>
+        <li>Validation, keyboard workflows, localization, and package-consumer checks for React 18/19 and SSR.</li>
+      </ul>
+      <p><a href="https://ntustray.github.io/react-datetime-range-picker/">Demo</a> · <a href="https://www.npmjs.com/package/@ntustray/react-datetime-range-picker">npm</a> · <a href="https://github.com/ntustRay/react-datetime-range-picker/blob/main/docs/PUBLIC_API.md">API contract</a> · <a href="https://github.com/ntustRay/react-datetime-range-picker/blob/main/scripts/verify-packed-consumers.mjs">Consumer checks</a></p>
+    </td>
   </tr>
 </table>
 
-## Latest posts
+Other projects:
+
+- [Agent Workspace Template](https://github.com/ntustRay/agent-workspace-template): a small `AGENTS.md` and task-workflow template, including [performance review](https://github.com/ntustRay/agent-workspace-template/blob/main/.agents/skills/performance-review/SKILL.md).
+- [Markdown Reader](https://github.com/ntustRay/markdown-file-reader): a side project for local Markdown editing, built with Tauri and TypeScript.
+
+## Technical writing
+
+I write in Traditional Chinese, keeping implementation experience separate from source-based research.
+
+- [Bun + Biome：讓 Agent 每次重跑都快一點](https://ntustray.github.io/mr-blog/posts/bun-biome-agent-iteration-compound-time/)  
+  Where installation and per-iteration checks add waiting time.
+- [模型變強了，還需要 Superpowers 嗎？](https://ntustray.github.io/mr-blog/posts/superpowers-skills-with-stronger-models/)  
+  Workflow overhead, external evidence, and when extra process earns its cost.
+- [GitLab Orbit 把 Code Context 放進 DuckDB，適合解決哪些搜尋問題？](https://ntustray.github.io/mr-blog/posts/gitlab-orbit-duckdb-code-context/)  
+  What a code graph can answer, and what still needs source inspection.
+
+<details>
+<summary>Latest posts (updated daily)</summary>
 
 <!-- BLOG:START -->
 - [LFM2.5 本機 Agent：跑得快之前，先確認工具真的會動](https://ntustray.github.io/mr-blog/posts/lfm25-local-agent-speed-tool-calling/)
@@ -34,8 +64,10 @@ I write down what I learn along the way.
 - [GitLab Orbit 把 Code Context 放進 DuckDB，適合解決哪些搜尋問題？](https://ntustray.github.io/mr-blog/posts/gitlab-orbit-duckdb-code-context/)
 <!-- BLOG:END -->
 
+</details>
+
 <details>
-<summary>Recently updated projects</summary>
+<summary>Repository activity and language statistics</summary>
 
 <!-- REPOS:START -->
 - [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-15</sub>
@@ -45,14 +77,12 @@ I write down what I learn along the way.
 - [2026-korea-busan-travel](https://github.com/ntustRay/2026-korea-busan-travel) — The travel instruction <sub>2026-07-30</sub>
 <!-- REPOS:END -->
 
-</details>
-
-<br />
-
 <p>
   <img src="assets/stats.svg" alt="Public GitHub repository statistics" width="48%" />
   <img src="assets/top-langs.svg" alt="Language distribution by source bytes in public original repositories" width="48%" />
 </p>
+
+</details>
 
 <!-- UPDATED:START -->
 <sub>Updated 2026-10-15 · [Updated daily by GitHub Actions](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
