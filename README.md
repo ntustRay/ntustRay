@@ -27,18 +27,18 @@ I write down what I learn along the way.
 ## Latest posts
 
 <!-- BLOG:START -->
+- [LFM2.5 本機 Agent：跑得快之前，先確認工具真的會動](https://ntustray.github.io/mr-blog/posts/lfm25-local-agent-speed-tool-calling/)
 - [Claude Mods 把擴充點放進 Runtime：什麼時候 Skill 已經不夠？](https://ntustray.github.io/mr-blog/posts/claude-mods-harness-runtime/)
 - [Gemini 4 Argon 跑了 11 小時，ADK 團隊只接受 2 個優化](https://ntustray.github.io/mr-blog/posts/gemini-4-argon-adk-review/)
 - [GitHub 把 Copilot Runtime 改成 80 萬行 Rust：長任務靠什麼撐住？](https://ntustray.github.io/mr-blog/posts/github-copilot-rust-migration-context/)
 - [GitLab Orbit 把 Code Context 放進 DuckDB，適合解決哪些搜尋問題？](https://ntustray.github.io/mr-blog/posts/gitlab-orbit-duckdb-code-context/)
-- [Model Routing 省下 64% 成本，先看清楚它怎麼衡量品質](https://ntustray.github.io/mr-blog/posts/model-routing-cost-quality/)
 <!-- BLOG:END -->
 
 <details>
 <summary>Recently updated projects</summary>
 
 <!-- REPOS:START -->
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-14</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-15</sub>
 - [agent-workspace-template](https://github.com/ntustRay/agent-workspace-template) — template for new general ai-agent <sub>2026-09-28</sub>
 - [markdown-file-reader](https://github.com/ntustRay/markdown-file-reader) — A Tauri-based Markdown reader with dark mode support <sub>2026-09-18</sub>
 - [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-08-15</sub>
