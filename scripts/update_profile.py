@@ -54,18 +54,18 @@ def card(title, subtitle, rows, bars=False):
     body = []
     for index, (label, value) in enumerate(rows):
         y = 122 + index * 42
-        body.append(f'<text x="28" y="{y}" font-size="19" fill="#F0E9DE">{escape(label)}</text>'
-                    f'<text x="472" y="{y}" text-anchor="end" font-size="21" font-weight="600" fill="#F0E9DE">{escape(str(value))}</text>')
+        body.append(f'<text x="28" y="{y}" font-size="19" fill="#EDF0EA">{escape(label)}</text>'
+                    f'<text x="472" y="{y}" text-anchor="end" font-size="21" font-weight="600" fill="#EDF0EA">{escape(str(value))}</text>')
         if bars and str(value).endswith('%'):
             width = 155 * float(str(value)[:-1]) / 100
-            body.append(f'<rect x="215" y="{y - 13}" width="155" height="10" rx="3" fill="#454A50"/>'
-                        f'<rect x="215" y="{y - 13}" width="{width:.2f}" height="10" rx="3" fill="#C89970"/>')
+            body.append(f'<rect x="215" y="{y - 13}" width="155" height="10" rx="3" fill="#414A48"/>'
+                        f'<rect x="215" y="{y - 13}" width="{width:.2f}" height="10" rx="3" fill="#AFC3A7"/>')
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 386" role="img" aria-label="{escape(title, quote=True)}">
-  <rect x="1" y="1" width="498" height="384" rx="16" fill="#24272B" stroke="#454A50" stroke-width="2"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="28" y="44" font-size="27" font-weight="700" fill="#F0E9DE">{escape(title)}</text>
-    <text x="28" y="72" font-size="14" fill="#AEB6BD">{escape(subtitle)}</text>
-    <path d="M28 89H472" stroke="#454A50"/>
+  <rect x="1" y="1" width="498" height="384" rx="4" fill="#252A2B" stroke="#414A48" stroke-width="2"/>
+  <g font-family="Arial, 'Noto Sans TC', 'Microsoft JhengHei', sans-serif">
+    <text x="28" y="44" font-size="27" font-weight="700" fill="#EDF0EA">{escape(title)}</text>
+    <text x="28" y="72" font-size="14" fill="#BEC8C3">{escape(subtitle)}</text>
+    <path d="M28 89H472" stroke="#414A48"/>
     {''.join(body)}
   </g>
 </svg>
@@ -89,11 +89,11 @@ def main():
                 languages[name] = languages.get(name, 0) + size
     total = sum(languages.values())
     top = sorted(languages.items(), key=lambda item: item[1], reverse=True)[:5]
-    language_rows = [(name, f'{size / total:.1%}') for name, size in top] if total else [('No source data', '—')]
+    language_rows = [(name, f'{size / total:.1%}') for name, size in top] if total else [('尚無原始碼資料', '—')]
     # Include the remainder explicitly; percentages use ALL language bytes.
     remainder = total - sum(size for _, size in top)
     if remainder:
-        language_rows.append(('Other', f'{remainder / total:.1%}'))
+        language_rows.append(('其他', f'{remainder / total:.1%}'))
 
     recent = sorted([r for r in own if not r['archived'] and r['name'].lower() != USER.lower()],
                     key=lambda r: r['pushed_at'] or '', reverse=True)[:5]
@@ -111,15 +111,15 @@ def main():
 
     readme = (ROOT / 'README.md').read_text(encoding='utf-8')
     readme = section(readme, 'BLOG', '\n'.join(blog_lines))
-    readme = section(readme, 'REPOS', '\n'.join(repo_lines) or 'No public projects yet.')
+    readme = section(readme, 'REPOS', '\n'.join(repo_lines) or '目前尚無公開專案。')
     date = datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d')
-    readme = section(readme, 'UPDATED', f'<sub>Updated {date} · [Updated daily by GitHub Actions](https://github.com/{USER}/{USER}/actions/workflows/update-profile.yml).</sub>')
-    stats = card('GitHub', 'Public original repositories', [
-        ('Public repos', len(own)),
+    readme = section(readme, 'UPDATED', f'<sub>更新於 {date} · [GitHub Actions 每日更新](https://github.com/{USER}/{USER}/actions/workflows/update-profile.yml).</sub>')
+    stats = card('GitHub', '公開原創 Repository', [
+        ('公開專案', len(own)),
         ('Stars', sum(r['stargazers_count'] for r in own)),
         ('Forks', sum(r['forks_count'] for r in own)),
     ])
-    langs = card('Languages', 'Source bytes in public original repositories', language_rows, bars=True)
+    langs = card('語言分布', '公開原創專案的原始碼位元組占比', language_rows, bars=True)
     # Fetch and validate everything before modifying tracked output files.
     (ROOT / 'assets').mkdir(exist_ok=True)
     for filename, content in [('stats.svg', stats), ('top-langs.svg', langs)]:

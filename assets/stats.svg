@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 386" role="img" aria-label="GitHub">
-  <rect x="1" y="1" width="498" height="384" rx="16" fill="#24272B" stroke="#454A50" stroke-width="2"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="28" y="44" font-size="27" font-weight="700" fill="#F0E9DE">GitHub</text>
-    <text x="28" y="72" font-size="14" fill="#AEB6BD">Public original repositories</text>
-    <path d="M28 89H472" stroke="#454A50"/>
-    <text x="28" y="122" font-size="19" fill="#F0E9DE">Public repos</text><text x="472" y="122" text-anchor="end" font-size="21" font-weight="600" fill="#F0E9DE">24</text><text x="28" y="164" font-size="19" fill="#F0E9DE">Stars</text><text x="472" y="164" text-anchor="end" font-size="21" font-weight="600" fill="#F0E9DE">1</text><text x="28" y="206" font-size="19" fill="#F0E9DE">Forks</text><text x="472" y="206" text-anchor="end" font-size="21" font-weight="600" fill="#F0E9DE">1</text>
+  <rect x="1" y="1" width="498" height="384" rx="4" fill="#252A2B" stroke="#414A48" stroke-width="2"/>
+  <g font-family="Arial, 'Noto Sans TC', 'Microsoft JhengHei', sans-serif">
+    <text x="28" y="44" font-size="27" font-weight="700" fill="#EDF0EA">GitHub</text>
+    <text x="28" y="72" font-size="14" fill="#BEC8C3">公開原創 Repository</text>
+    <path d="M28 89H472" stroke="#414A48"/>
+    <text x="28" y="122" font-size="19" fill="#EDF0EA">公開專案</text><text x="472" y="122" text-anchor="end" font-size="21" font-weight="600" fill="#EDF0EA">24</text><text x="28" y="164" font-size="19" fill="#EDF0EA">Stars</text><text x="472" y="164" text-anchor="end" font-size="21" font-weight="600" fill="#EDF0EA">1</text><text x="28" y="206" font-size="19" fill="#EDF0EA">Forks</text><text x="472" y="206" text-anchor="end" font-size="21" font-weight="600" fill="#EDF0EA">1</text>
   </g>
 </svg>
