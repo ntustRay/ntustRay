@@ -44,11 +44,11 @@
 
 解讀 Planning、Tools 與 Context 設定的研究結果，釐清條件與取捨，再整理可用於自身工作流的驗證方式。
 
-### <img src="assets/readme/icons/layers.svg" width="22" height="22" alt="" /> UI 與 Agent，如何共用操作契約？
+### <img src="assets/readme/icons/layers.svg" width="22" height="22" alt="" /> 刷題與白板題，怎麼連到職場的工程能力？
 
-[**[News] Agent-Native 的共享 Action：聊天與 UI 怎麼操作同一份資料？**](https://ntustray.github.io/mr-blog/posts/agent-native-shared-actions-ui-state/)
+[**[Insight] AI 都會寫程式了，刷 LeetCode 還在練什麼？**](https://ntustray.github.io/mr-blog/posts/ai-era-leetcode-thinking/)
 
-依官方文件與原始碼，從共享 Action、物件 ID 到版本衝突，思考聊天入口如何接進既有應用。
+從對齊 Spec、Input／Output，到第一版解法、迭代與溝通，整理我認為值得帶回職場的基本功。
 
 ### <img src="assets/readme/icons/gauge.svg" width="22" height="22" alt="" /> 工具省下的時間，應該怎麼算？
 
@@ -84,7 +84,6 @@
 <!-- BLOG:START -->
 - [\[Insight\] AI 都會寫程式了，刷 LeetCode 還在練什麼？](https://ntustray.github.io/mr-blog/posts/ai-era-leetcode-thinking/)
 - [\[News\] d1-ultra 回傳機率之後，Agent 何時該轉人工？](https://ntustray.github.io/mr-blog/posts/d1-ultra-probability-human-review/)
-- [\[News\] Agent-Native 的共享 Action：聊天與 UI 怎麼操作同一份資料？](https://ntustray.github.io/mr-blog/posts/agent-native-shared-actions-ui-state/)
 - [\[News\] LFM2.5 本機 Agent：跑得快之前，先確認工具真的會動](https://ntustray.github.io/mr-blog/posts/lfm25-local-agent-speed-tool-calling/)
 - [\[News\] Claude Mods 把擴充點放進 Runtime：什麼時候 Skill 已經不夠？](https://ntustray.github.io/mr-blog/posts/claude-mods-harness-runtime/)
 <!-- BLOG:END -->

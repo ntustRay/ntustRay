@@ -14,6 +14,10 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 USER = os.environ.get('GH_USER', 'ntustRay')
 BLOG = 'https://ntustray.github.io/mr-blog/rss.xml'
+# Keep these posts on the blog, but omit them from the personal profile.
+PROFILE_EXCLUDED_POST_PATHS = {
+    '/mr-blog/posts/agent-native-shared-actions-ui-state',
+}
 
 
 def get(url):
@@ -104,7 +108,11 @@ def main():
         repo_lines.append(f"- {link(r['name'], r['html_url'])}" + (f' — {desc}' if desc else '')
                           + f" <sub>{(r['pushed_at'] or '')[:10]}</sub>")
 
-    items = ET.fromstring(get(BLOG)).findall('./channel/item')[:5]
+    items = [
+        item for item in ET.fromstring(get(BLOG)).findall('./channel/item')
+        if urlparse(item.findtext('link') or '').path.rstrip('/')
+        not in PROFILE_EXCLUDED_POST_PATHS
+    ][:5]
     if not items:
         raise ValueError('Blog feed contains no articles; keeping existing files')
     blog_lines = [f"- {link(item.findtext('title'), item.findtext('link'))}" for item in items]
