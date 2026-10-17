@@ -82,11 +82,11 @@
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
-- [d1-ultra 回傳機率之後，Agent 何時該轉人工？](https://ntustray.github.io/mr-blog/posts/d1-ultra-probability-human-review/)
-- [Agent-Native 的共享 Action：聊天與 UI 怎麼操作同一份資料？](https://ntustray.github.io/mr-blog/posts/agent-native-shared-actions-ui-state/)
-- [LFM2.5 本機 Agent：跑得快之前，先確認工具真的會動](https://ntustray.github.io/mr-blog/posts/lfm25-local-agent-speed-tool-calling/)
-- [Claude Mods 把擴充點放進 Runtime：什麼時候 Skill 已經不夠？](https://ntustray.github.io/mr-blog/posts/claude-mods-harness-runtime/)
-- [Gemini 4 Argon 跑了 11 小時，ADK 團隊只接受 2 個優化](https://ntustray.github.io/mr-blog/posts/gemini-4-argon-adk-review/)
+- [\[Insight\] AI 都會寫程式了，刷 LeetCode 還在練什麼？](https://ntustray.github.io/mr-blog/posts/ai-era-leetcode-thinking/)
+- [\[News\] d1-ultra 回傳機率之後，Agent 何時該轉人工？](https://ntustray.github.io/mr-blog/posts/d1-ultra-probability-human-review/)
+- [\[News\] Agent-Native 的共享 Action：聊天與 UI 怎麼操作同一份資料？](https://ntustray.github.io/mr-blog/posts/agent-native-shared-actions-ui-state/)
+- [\[News\] LFM2.5 本機 Agent：跑得快之前，先確認工具真的會動](https://ntustray.github.io/mr-blog/posts/lfm25-local-agent-speed-tool-calling/)
+- [\[News\] Claude Mods 把擴充點放進 Runtime：什麼時候 Skill 已經不夠？](https://ntustray.github.io/mr-blog/posts/claude-mods-harness-runtime/)
 <!-- BLOG:END -->
 
 </details>
@@ -112,7 +112,7 @@
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-10-17 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-10-18 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
