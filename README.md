@@ -82,11 +82,11 @@
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
+- [\[News\] DeepSeek 開放 Search／Fetch：多 Agent 得共用請求預算](https://ntustray.github.io/mr-blog/posts/deepseek-search-fetch-agent-budget/)
 - [\[Insight\] AI 都會寫程式了，刷 LeetCode 還在練什麼？](https://ntustray.github.io/mr-blog/posts/ai-era-leetcode-thinking/)
 - [\[News\] d1-ultra 回傳機率之後，Agent 何時該轉人工？](https://ntustray.github.io/mr-blog/posts/d1-ultra-probability-human-review/)
 - [\[News\] LFM2.5 本機 Agent：跑得快之前，先確認工具真的會動](https://ntustray.github.io/mr-blog/posts/lfm25-local-agent-speed-tool-calling/)
 - [\[News\] Claude Mods 把擴充點放進 Runtime：什麼時候 Skill 已經不夠？](https://ntustray.github.io/mr-blog/posts/claude-mods-harness-runtime/)
-- [\[News\] Gemini 4 Argon 跑了 11 小時，ADK 團隊只接受 2 個優化](https://ntustray.github.io/mr-blog/posts/gemini-4-argon-adk-review/)
 <!-- BLOG:END -->
 
 </details>
@@ -97,7 +97,7 @@
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-17</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-18</sub>
 - [agent-workspace-template](https://github.com/ntustRay/agent-workspace-template) — template for new general ai-agent <sub>2026-09-28</sub>
 - [markdown-file-reader](https://github.com/ntustRay/markdown-file-reader) — A Tauri-based Markdown reader with dark mode support <sub>2026-09-18</sub>
 - [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-08-15</sub>
