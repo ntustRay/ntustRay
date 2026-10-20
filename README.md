@@ -82,11 +82,11 @@
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
+- [\[News\] Librarian Agents：讓 Agent 先整理文件，再回答問題](https://ntustray.github.io/mr-blog/posts/librarian-agents-query-independent-workspace/)
 - [\[News\] MemHub v1.0.4：跨 Agent 記憶，要怎麼停止與刪除？](https://ntustray.github.io/mr-blog/posts/memhub-shared-memory-data-lifecycle/)
 - [\[News\] DeepSeek 開放 Search／Fetch：多 Agent 得共用請求預算](https://ntustray.github.io/mr-blog/posts/deepseek-search-fetch-agent-budget/)
 - [\[Insight\] AI 都會寫程式了，刷 LeetCode 還在練什麼？](https://ntustray.github.io/mr-blog/posts/ai-era-leetcode-thinking/)
 - [\[News\] d1-ultra 回傳機率之後，Agent 何時該轉人工？](https://ntustray.github.io/mr-blog/posts/d1-ultra-probability-human-review/)
-- [\[News\] LFM2.5 本機 Agent：跑得快之前，先確認工具真的會動](https://ntustray.github.io/mr-blog/posts/lfm25-local-agent-speed-tool-calling/)
 <!-- BLOG:END -->
 
 </details>
@@ -97,9 +97,9 @@
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-20</sub>
 - [parallel-parking-lab](https://github.com/ntustRay/parallel-parking-lab) — 慢慢停 · 第一人稱路邊停車練習。坐進駕駛座，用左右後視鏡、轉頭觀察與低速控制練習倒車入位。 <sub>2026-10-19</sub>
 - [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-10-19</sub>
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-19</sub>
 - [agent-workspace-template](https://github.com/ntustRay/agent-workspace-template) — template for new general ai-agent <sub>2026-09-28</sub>
 - [markdown-file-reader](https://github.com/ntustRay/markdown-file-reader) — A Tauri-based Markdown reader with dark mode support <sub>2026-09-18</sub>
 <!-- REPOS:END -->
@@ -112,7 +112,7 @@
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-10-19 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-10-20 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
