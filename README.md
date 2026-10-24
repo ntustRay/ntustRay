@@ -82,11 +82,11 @@
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
-- [\[News\] Cache Engineering：Agent 不改寫對話，也能丟掉 KV Cache](https://ntustray.github.io/mr-blog/posts/cache-engineering-agent-kv-cache/)
-- [\[News\] PHP2Shell：AI 降低了複雜漏洞的利用門檻](https://ntustray.github.io/mr-blog/posts/php2shell-ai-vulnerability-economics/)
-- [\[News\] Eleven Realtime：語音 Agent 不能只量第一句有多快](https://ntustray.github.io/mr-blog/posts/eleven-realtime-voice-agent-evaluation/)
-- [\[News\] Librarian Agents：讓 Agent 先整理文件，再回答問題](https://ntustray.github.io/mr-blog/posts/librarian-agents-query-independent-workspace/)
-- [\[News\] MemHub v1.0.4：跨 Agent 記憶，要怎麼停止與刪除？](https://ntustray.github.io/mr-blog/posts/memhub-shared-memory-data-lifecycle/)
+- [\[Guide\] AEO 怎麼做？把技術文章寫成能直接回答問題的內容](https://ntustray.github.io/mr-blog/posts/aeo-answer-engine-optimization-guide/)
+- [\[News\] Agent 監控漏掉 Compaction：先量覆蓋率，再談抓不抓得到](https://ntustray.github.io/mr-blog/posts/agent-monitoring-coverage-compaction/)
+- [\[Guide\] Blog SEO Checklist：上線前後要檢查什麼？AI 常漏掉哪些？](https://ntustray.github.io/mr-blog/posts/blog-seo-release-checklist-ai-review/)
+- [\[Guide\] GEO 怎麼做？讓技術文章成為 AI 搜尋可查證的來源](https://ntustray.github.io/mr-blog/posts/geo-generative-engine-optimization-guide/)
+- [\[Insight\] SEO、AEO、GEO 差在哪？技術部落格該先做什麼？](https://ntustray.github.io/mr-blog/posts/seo-vs-aeo-vs-geo/)
 <!-- BLOG:END -->
 
 </details>
@@ -97,9 +97,9 @@
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-24</sub>
+- [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-10-24</sub>
 - [parallel-parking-lab](https://github.com/ntustRay/parallel-parking-lab) — 慢慢停 · 第一人稱路邊停車練習。坐進駕駛座，用左右後視鏡、轉頭觀察與低速控制練習倒車入位。 <sub>2026-10-23</sub>
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-23</sub>
-- [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-10-19</sub>
 - [agent-workspace-template](https://github.com/ntustRay/agent-workspace-template) — template for new general ai-agent <sub>2026-09-28</sub>
 - [markdown-file-reader](https://github.com/ntustRay/markdown-file-reader) — A Tauri-based Markdown reader with dark mode support <sub>2026-09-18</sub>
 <!-- REPOS:END -->
@@ -112,7 +112,7 @@
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-10-23 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-10-24 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
