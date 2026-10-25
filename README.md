@@ -112,7 +112,7 @@
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-10-24 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-10-25 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
