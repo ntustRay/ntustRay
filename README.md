@@ -82,11 +82,11 @@
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
+- [\[News\] Cloudflare Agents：讓 Browser Agent 看內部預覽，不必公開 dev server](https://ntustray.github.io/mr-blog/posts/cloudflare-browser-agent-internal-hosts/)
 - [\[News\] GPT-6.1 Terra：Computer Use 變便宜後，還要量哪些成本？](https://ntustray.github.io/mr-blog/posts/gpt-6-1-terra-computer-use-cost/)
 - [\[News\] Skills over MCP：遠端 Skill 怎麼發現、驗證與更新？](https://ntustray.github.io/mr-blog/posts/skills-over-mcp-remote-distribution/)
 - [\[Guide\] 用 Next.js 做圖片比對：Bun＋Biome 起步](https://ntustray.github.io/mr-blog/posts/visual-regression-01-nextjs-bun-biome/)
 - [\[Guide\] 把圖片比對網站部署到 Vercel：從 GitHub 匯入到開啟 Demo](https://ntustray.github.io/mr-blog/posts/visual-regression-02-vercel-deploy/)
-- [\[Guide\] 接上 Supabase：一步步完成 GitHub 登入、私人圖片與歷史紀錄](https://ntustray.github.io/mr-blog/posts/visual-regression-03-supabase-private-storage/)
 <!-- BLOG:END -->
 
 </details>
@@ -97,7 +97,7 @@
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-27</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-28</sub>
 - [parallel-parking-lab](https://github.com/ntustRay/parallel-parking-lab) — 慢慢停 · 第一人稱路邊停車練習。坐進駕駛座，用左右後視鏡、轉頭觀察與低速控制練習倒車入位。 <sub>2026-10-25</sub>
 - [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-10-24</sub>
 - [agent-workspace-template](https://github.com/ntustRay/agent-workspace-template) — template for new general ai-agent <sub>2026-09-28</sub>
@@ -112,7 +112,7 @@
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-10-27 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-10-28 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
