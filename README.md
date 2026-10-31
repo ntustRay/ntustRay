@@ -82,11 +82,11 @@
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
+- [\[News\] Cursor Marketplace 的 Claude Code Extension 遭植入後門：解除安裝還不夠](https://ntustray.github.io/mr-blog/posts/cursor-marketplace-claude-code-extension-backdoor/)
 - [\[News\] Android Studio Rabbit 2 開放 40+ Coding Agents：ACP 解耦了什麼？](https://ntustray.github.io/mr-blog/posts/android-studio-rabbit-2-acp/)
 - [\[Insight\] 工程師做簡報：先決定聽眾要帶走什麼，再開始做 PPT](https://ntustray.github.io/mr-blog/posts/goal-driven-presentation/)
 - [\[Guide\] PPT 字體怎麼選？內建與免費字體的中英文搭配](https://ntustray.github.io/mr-blog/posts/presentation-fonts/)
 - [\[News\] Pydantic AI 2.63：Agent 卡在迴圈時，怎麼在預算燒完前停下來？](https://ntustray.github.io/mr-blog/posts/pydantic-ai-agent-runtime-brakes/)
-- [\[News\] Cloudflare Agents：讓 Browser Agent 看內部預覽，不必公開 dev server](https://ntustray.github.io/mr-blog/posts/cloudflare-browser-agent-internal-hosts/)
 <!-- BLOG:END -->
 
 </details>
@@ -97,7 +97,7 @@
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-30</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-10-31</sub>
 - [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-10-30</sub>
 - [engineer-stock-data](https://github.com/ntustRay/engineer-stock-data) <sub>2026-10-28</sub>
 - [parallel-parking-lab](https://github.com/ntustRay/parallel-parking-lab) — 慢慢停 · 第一人稱路邊停車練習。坐進駕駛座，用左右後視鏡、轉頭觀察與低速控制練習倒車入位。 <sub>2026-10-25</sub>
@@ -112,7 +112,7 @@
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-10-30 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-10-31 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
