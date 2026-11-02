@@ -82,11 +82,11 @@
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
-- [\[News\] Playwright MCP 0.0.84：多帳號 Browser Agent 為什麼不能只開不同 Tab？](https://ntustray.github.io/mr-blog/posts/playwright-mcp-isolated-browser-contexts/)
-- [\[News\] Cursor Marketplace 的 Claude Code Extension 遭植入後門：解除安裝還不夠](https://ntustray.github.io/mr-blog/posts/cursor-marketplace-claude-code-extension-backdoor/)
-- [\[News\] Android Studio Rabbit 2 開放 40+ Coding Agents：ACP 解耦了什麼？](https://ntustray.github.io/mr-blog/posts/android-studio-rabbit-2-acp/)
-- [\[Insight\] 工程師做簡報：先決定聽眾要帶走什麼，再開始做 PPT](https://ntustray.github.io/mr-blog/posts/goal-driven-presentation/)
-- [\[Guide\] PPT 字體怎麼選？內建與免費字體的中英文搭配](https://ntustray.github.io/mr-blog/posts/presentation-fonts/)
+- [\[Guide\] 工程師選股網 01：本機啟動與資料流](https://ntustray.github.io/mr-blog/posts/engineer-stock-01-local/)
+- [\[Guide\] 工程師選股網 02：把股票 API 變成 JSON](https://ntustray.github.io/mr-blog/posts/engineer-stock-02-json/)
+- [\[Guide\] 工程師選股網 03：讓 GitHub Actions 更新股票資料](https://ntustray.github.io/mr-blog/posts/engineer-stock-03-actions/)
+- [\[Guide\] 工程師選股網 04：Next.js 怎麼把 JSON 顯示成網頁](https://ntustray.github.io/mr-blog/posts/engineer-stock-04-nextjs-data/)
+- [\[Guide\] 工程師選股網 05：接上篩選、個股與圖表](https://ntustray.github.io/mr-blog/posts/engineer-stock-05-screener-charts/)
 <!-- BLOG:END -->
 
 </details>
@@ -97,7 +97,7 @@
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-01</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-02</sub>
 - [engineer-stock-data](https://github.com/ntustRay/engineer-stock-data) <sub>2026-10-31</sub>
 - [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-10-30</sub>
 - [parallel-parking-lab](https://github.com/ntustRay/parallel-parking-lab) — 慢慢停 · 第一人稱路邊停車練習。坐進駕駛座，用左右後視鏡、轉頭觀察與低速控制練習倒車入位。 <sub>2026-10-25</sub>
@@ -112,7 +112,7 @@
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-11-01 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-11-02 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
