@@ -82,11 +82,11 @@
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
-- [\[Guide\] 工程師選股網 01：本機啟動與資料流](https://ntustray.github.io/mr-blog/posts/engineer-stock-01-local/)
-- [\[Guide\] 工程師選股網 02：把股票 API 變成 JSON](https://ntustray.github.io/mr-blog/posts/engineer-stock-02-json/)
-- [\[Guide\] 工程師選股網 03：讓 GitHub Actions 更新股票資料](https://ntustray.github.io/mr-blog/posts/engineer-stock-03-actions/)
-- [\[Guide\] 工程師選股網 04：Next.js 怎麼把 JSON 顯示成網頁](https://ntustray.github.io/mr-blog/posts/engineer-stock-04-nextjs-data/)
-- [\[Guide\] 工程師選股網 05：接上篩選、個股與圖表](https://ntustray.github.io/mr-blog/posts/engineer-stock-05-screener-charts/)
+- [\[News\] Deep Agents 0.2.3：MCP 工具越多，Schema 該怎麼延後載入？](https://ntustray.github.io/mr-blog/posts/deepagents-mcp-tool-schema-search/)
+- [\[Guide\] 工程師選股網 11：GitHub Actions 跨午夜抓錯資料日期的除錯紀錄](https://ntustray.github.io/mr-blog/posts/engineer-stock-11-actions-date-debug/)
+- [\[Review\] Next.js 還有誰？主流 Web Framework 怎麼選](https://ntustray.github.io/mr-blog/posts/tool-review-01-nextjs-web-framework/)
+- [\[Review\] React 還是 Vue？四種 UI Library 的取捨](https://ntustray.github.io/mr-blog/posts/tool-review-02-react-vue-svelte-solid/)
+- [\[Review\] Vite、Webpack、Rspack、Turbopack：Bundler 怎麼選](https://ntustray.github.io/mr-blog/posts/tool-review-03-vite-webpack-rspack/)
 <!-- BLOG:END -->
 
 </details>
@@ -97,11 +97,11 @@
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-02</sub>
-- [engineer-stock-data](https://github.com/ntustRay/engineer-stock-data) <sub>2026-10-31</sub>
-- [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-10-30</sub>
-- [parallel-parking-lab](https://github.com/ntustRay/parallel-parking-lab) — 慢慢停 · 第一人稱路邊停車練習。坐進駕駛座，用左右後視鏡、轉頭觀察與低速控制練習倒車入位。 <sub>2026-10-25</sub>
-- [agent-workspace-template](https://github.com/ntustRay/agent-workspace-template) — template for new general ai-agent <sub>2026-09-28</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-03</sub>
+- [ai-engineer-job-platform](https://github.com/ntustRay/ai-engineer-job-platform) <sub>2026-11-03</sub>
+- [ai-engineer-job-data](https://github.com/ntustRay/ai-engineer-job-data) <sub>2026-11-03</sub>
+- [github-kanban](https://github.com/ntustRay/github-kanban) <sub>2026-11-03</sub>
+- [dev-map-lab](https://github.com/ntustRay/dev-map-lab) <sub>2026-11-03</sub>
 <!-- REPOS:END -->
 
 <p>
@@ -112,7 +112,7 @@
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-11-02 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-11-03 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
