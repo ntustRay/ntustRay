@@ -106,10 +106,10 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
+- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-08</sub>
 - [web-authentication-component](https://github.com/ntustRay/web-authentication-component) <sub>2026-11-08</sub>
 - [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-08</sub>
 - [github-kanban](https://github.com/ntustRay/github-kanban) <sub>2026-11-07</sub>
-- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-07</sub>
 - [dev-map-lab](https://github.com/ntustRay/dev-map-lab) <sub>2026-11-05</sub>
 <!-- REPOS:END -->
 
