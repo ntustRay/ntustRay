@@ -3,19 +3,44 @@
   <img src="assets/header.svg" width="900" alt="MingRay｜Full-Stack Engineer，關注 TypeScript、React、Canvas 與 DuckDB" />
 </picture>
 
-# MingRay｜工程實作與技術判斷
+# MingRay｜Full-Stack Engineer
 
-我是 MingRay，一位 Full-Stack Engineer。目前的工作圍繞大型資料與圖表：資料如何查詢、如何進入 Renderer，以及 UI 如何回應使用者操作。
+我是 MingRay，從 Frontend 走向 Full Stack。目前的工作以 TypeScript、React、Canvas 與 DuckDB 為主，處理大型資料的查詢、圖表繪製與互動效能。
 
-工作之外，我做可重用的元件與小型應用，也把工程問題、技術選擇的理由與驗證方式寫成繁中筆記。
+工作之外，我做第一人稱 3D 遊戲、瀏覽器影像工具與全端應用，也把實作過程中的問題、技術選擇與驗證方式整理成繁中筆記。
 
-<p>
-  <a href="https://ntustray.github.io/mr-blog/"><img src="assets/readme/icons/book-open.svg" width="22" height="22" alt="" /> 閱讀部落格</a>　
-  <a href="https://github.com/ntustRay?tab=repositories"><img src="assets/readme/icons/blocks.svg" width="22" height="22" alt="" /> 公開專案</a>　
-  <a href="https://www.npmjs.com/package/@ntustray/react-datetime-range-picker"><img src="assets/readme/icons/calendar-range.svg" width="22" height="22" alt="" /> npm 套件</a>
-</p>
+[技術部落格](https://ntustray.github.io/mr-blog/) · [GitHub Kanban](https://github-kanban-ntustray.vercel.app/) · [公開 Repositories](https://github.com/ntustRay?tab=repositories)
 
-## <img src="assets/readme/icons/compass.svg" width="26" height="26" alt="" /> 技術探索地圖
+## <img src="assets/readme/icons/blocks.svg" width="26" height="26" alt="" /> 精選 Side Projects
+
+| 專案 | 已實作的功能 | 技術重點 | 入口 |
+| --- | --- | --- | --- |
+| **慢慢停 · Parallel Parking Lab** | 第一人稱停車遊戲；三面後視鏡、路邊停車、倒車入庫、S 彎與迴轉，附分步教學與示範。 | Three.js、WebGL、車輛動態與碰撞判定；可打包成單一離線 HTML。 | [開始練習](https://ntustray.github.io/parallel-parking-lab/) · [Source](https://github.com/ntustRay/parallel-parking-lab) |
+| **工程師選股網** | 台股多條件選股、個股行情與財報、公司比較、會員追蹤清單。 | Next.js、TypeScript、ECharts、Supabase Auth；股票資料由 GitHub Actions 更新 JSON，會員資料另外保存。 | [Demo](https://engineer-stock-web.vercel.app/) · [公開資料 Pipeline](https://github.com/ntustRay/engineer-stock-data) |
+| **Shade Lab · AR妝容** | 照片與相機即時試妝、十一種妝效、A／B 比較、妝容儲存與 PNG 匯出。 | React、TypeScript、MediaPipe、WebGL2；Worker 臉部追蹤與 Shader 合成，照片留在裝置。 | [Demo](https://shade-room.vercel.app/) |
+| **Dev Map Lab** | JS／TS 學習路線、四種題型、程式測資執行、教材註記與個人筆記。 | Next.js、QuickJS WASM、Web Worker、IndexedDB；程式執行與 UI 分開，學習資料保存在本機。 | [Source](https://github.com/ntustRay/dev-map-lab) |
+| **Pixel Workbench** | 人像去背、貼紙、人臉馬賽克、裁切、調色、銳化、浮水印與批次 ZIP 匯出。 | React、TypeScript、Canvas、MediaPipe；瀏覽器處理圖片，不需帳號或 API key。 | [Demo](https://pixel-workbench-eta.vercel.app/) · [Source](https://github.com/ntustRay/pixel-workbench) |
+| **Visual Regression Hub · Framecheck** | 圖片批量配對、四種差異檢視、縮放與同步拖曳、結果保存、審核與可撤銷分享。 | Next.js、pixelmatch、Web Worker、Supabase；獨立 Diff Core、私人圖片儲存與 RLS。 | [Demo](https://visual-regression-hub.vercel.app/demo) · [架構說明](https://visual-regression-hub.vercel.app/source) |
+
+Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證。Shade Lab、工程師選股網與 Visual Regression Hub 目前提供公開 Demo，原始碼未公開。
+
+## <img src="assets/readme/icons/compass.svg" width="26" height="26" alt="" /> 接下來：AI Engineer Job Platform
+
+下一個 Side Project 是 **AI Engineer Job Platform**。目前處於規劃階段，已建立 [平台 Repository](https://github.com/ntustRay/ai-engineer-job-platform) 與 [資料 Repository](https://github.com/ntustRay/ai-engineer-job-data)，功能與部署尚未開始。
+
+## <img src="assets/readme/icons/workflow.svg" width="26" height="26" alt="" /> 專案管理與元件
+
+| 專案 | 用途與實作重點 | 入口 |
+| --- | --- | --- |
+| **GitHub Kanban** | 用 GitHub 登入，將 Repositories 放進六欄看板；支援拖曳、備註、黑／淺色主題與 Agent API。 | [開啟看板](https://github-kanban-ntustray.vercel.app/) · [免登入試用](https://github-kanban-ntustray.vercel.app/demo) · [Source](https://github.com/ntustRay/github-kanban) |
+| **React DateTime Range Picker** | 給分析、圖表與 Logs 使用的 React 元件；Timestamp-first API、IANA 時區、Draft／Commit 分離與半開區間 `[start, end)`。 | [Demo](https://ntustray.github.io/react-datetime-range-picker/) · [npm](https://www.npmjs.com/package/@ntustray/react-datetime-range-picker) · [Source](https://github.com/ntustRay/react-datetime-range-picker) |
+
+## <img src="assets/readme/icons/book-open.svg" width="26" height="26" alt="" /> 技術筆記
+
+[**MR Blog**](https://ntustray.github.io/mr-blog/) 保存專案實作、工具選型與工程判斷。網站使用 Astro、TypeScript、Markdown 與 Pagefind，部署在 GitHub Pages。
+
+<details>
+<summary>技術探索與推薦文章</summary>
 
 <p align="center">
   <img src="assets/readme/topic-agents.svg" width="232" alt="AI Agents：Tools、Context 與 Harness" />
@@ -23,20 +48,9 @@
   <img src="assets/readme/topic-performance.svg" width="232" alt="效能與工具：找出瓶頸，驗證改善" />
 </p>
 
-- **圖表與瀏覽器資料**：Query／Render 邊界、座標轉換、DPR，以及資料與 Render Cache 的記憶體成本；也在探索 Web Workers 與 OPFS。
-- **React 與元件 API**：Controlled State、明確的資料契約與驗證，讓需求變動時仍能維持相容性。
-- **工程工作流程**：Behavior Tests、Code Review、套件使用端驗證，以及人與 Coding Agent 都能理解的專案文件。
-
-## <img src="assets/readme/icons/blocks.svg" width="26" height="26" alt="" /> 工程實作：MR Blog
-
-[**MR Blog**](https://ntustray.github.io/mr-blog/) 用來保存技術探索與工程判斷，本身也採用可查看的實作：
-
-- <img src="assets/readme/icons/layers.svg" width="22" height="22" alt="" /> **Static-first**：Astro、TypeScript 與 Markdown，部署到 GitHub Pages；[Content Collection schema](https://github.com/ntustRay/mr-blog/blob/main/src/content.config.ts) 驗證文章 metadata。
-- <img src="assets/readme/icons/search.svg" width="22" height="22" alt="" /> **內容檢索**：Build 時產生 Pagefind 索引，[搜尋頁](https://ntustray.github.io/mr-blog/search/)提供標題與內文檢索。
-- <img src="assets/readme/icons/check-check.svg" width="22" height="22" alt="" /> **品質檢查**：[Quality workflow](https://github.com/ntustRay/mr-blog/blob/main/.github/workflows/quality.yml) 執行 Build、內部連結檢查與 Lighthouse CI。
-- <img src="assets/readme/icons/message-square.svg" width="22" height="22" alt="" /> **延後載入留言**：[giscus 元件](https://github.com/ntustRay/mr-blog/blob/main/src/components/ArticleComments.astro)在接近可視範圍或手動開啟時載入；有留言時自動展開。
-
-## <img src="assets/readme/icons/book-open.svg" width="26" height="26" alt="" /> 從這三篇開始讀
+- **圖表與瀏覽器資料**：Query／Render 邊界、座標轉換、DPR 與記憶體成本；也在探索 Web Workers 與 OPFS。
+- **React 與元件 API**：Controlled State、資料契約與驗證。
+- **AI 與工程流程**：Coding Agent 的 Tools、Context 與 Harness，以及 Code Review 和可驗證的完成條件。
 
 ### <img src="assets/readme/icons/workflow.svg" width="22" height="22" alt="" /> Agent 的能力，如何受到 Harness 影響？
 
@@ -58,12 +72,7 @@
 
 [瀏覽全部文章 →](https://ntustray.github.io/mr-blog/archive/)
 
-## <img src="assets/readme/icons/blocks.svg" width="26" height="26" alt="" /> 延伸作品
-
-| 專案 | 用途與工程重點 |
-| --- | --- |
-| <img src="assets/readme/icons/calendar-range.svg" width="24" height="24" alt="" /> [**React DateTime Range Picker**](https://github.com/ntustRay/react-datetime-range-picker) | 給分析、圖表與 Logs 使用的 React 範圍元件。Timestamp-first API、IANA 顯示時區、Draft／Commit 分離與半開區間 `[start, end)`。[Demo ↗](https://ntustray.github.io/react-datetime-range-picker/) · [API 契約](https://github.com/ntustRay/react-datetime-range-picker/blob/main/docs/PUBLIC_API.md) |
-| <img src="assets/readme/icons/workflow.svg" width="24" height="24" alt="" /> [**Agent Workspace Template**](https://github.com/ntustRay/agent-workspace-template) | 給 Coding Agent 清楚的專案入口：精簡的 AGENTS.md、架構文件，以及按任務使用的 Skills。 |
+</details>
 
 ## <img src="assets/readme/icons/check-check.svg" width="26" height="26" alt="" /> 我如何與 AI 一起工作
 
