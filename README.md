@@ -91,11 +91,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
+- [\[News\] Claude Fable 5.2：換模型前，先處理 preserved thinking 與 tool 相容性](https://ntustray.github.io/mr-blog/posts/claude-fable-5-2-preserved-thinking-migration/)
 - [\[News\] Open WebUI 0.13.3：排程 Coding Agent 連上你的電腦，權限邊界在哪？](https://ntustray.github.io/mr-blog/posts/open-webui-tether-agent-automations/)
 - [\[News\] Google ADK 2.14：Agent Eval 為什麼不能只跑一次？](https://ntustray.github.io/mr-blog/posts/google-adk-2-14-multi-run-eval/)
 - [\[News\] Hermes Agent 0.23：CLI、Desktop、Bot 共用 Session，誰該擁有唯一寫入權？](https://ntustray.github.io/mr-blog/posts/hermes-agent-unified-session-gateway/)
 - [\[News\] Pydantic AI 2.66 公布 10 個安全問題：URL、Tool Schema 與 Trace 都是輸入](https://ntustray.github.io/mr-blog/posts/pydantic-ai-266-agent-security-inputs/)
-- [\[News\] MemUse：Agent 取回記憶後，真的有用上嗎？](https://ntustray.github.io/mr-blog/posts/memuse-agent-memory-point-of-use/)
 <!-- BLOG:END -->
 
 </details>
@@ -106,11 +106,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-09</sub>
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-09</sub>
-- [web-authentication-component](https://github.com/ntustRay/web-authentication-component) <sub>2026-11-08</sub>
-- [github-kanban](https://github.com/ntustRay/github-kanban) <sub>2026-11-07</sub>
-- [dev-map-lab](https://github.com/ntustRay/dev-map-lab) <sub>2026-11-05</sub>
+- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-10</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-10</sub>
+- [engineer-stock-data](https://github.com/ntustRay/engineer-stock-data) <sub>2026-11-09</sub>
+- [home-way](https://github.com/ntustRay/home-way) — Next.js 14 + Typescript + Clerk Auth + Prisma + Supabase + Tailwind + Shadcn-ui + Zod + Vercel <sub>2026-11-09</sub>
+- [dev-map-lab](https://github.com/ntustRay/dev-map-lab) <sub>2026-11-09</sub>
 <!-- REPOS:END -->
 
 <p>
@@ -121,7 +121,7 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-11-09 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-11-10 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
