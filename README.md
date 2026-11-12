@@ -91,11 +91,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
+- [\[News\] AWS 揭露 MCP Gateway 兩個漏洞：升級後為什麼還要查舊資料？](https://ntustray.github.io/mr-blog/posts/aws-mcp-gateway-registry-post-upgrade-review/)
 - [\[News\] Browser Use 1.0：Browser Agent 改成 Python REPL，真的更快嗎？](https://ntustray.github.io/mr-blog/posts/browser-use-1-python-repl-cdp/)
 - [\[News\] Claude Fable 5.2：換模型前，先處理 preserved thinking 與 tool 相容性](https://ntustray.github.io/mr-blog/posts/claude-fable-5-2-preserved-thinking-migration/)
 - [\[News\] Open WebUI 0.13.3：排程 Coding Agent 連上你的電腦，權限邊界在哪？](https://ntustray.github.io/mr-blog/posts/open-webui-tether-agent-automations/)
 - [\[News\] Google ADK 2.14：Agent Eval 為什麼不能只跑一次？](https://ntustray.github.io/mr-blog/posts/google-adk-2-14-multi-run-eval/)
-- [\[News\] Hermes Agent 0.23：CLI、Desktop、Bot 共用 Session，誰該擁有唯一寫入權？](https://ntustray.github.io/mr-blog/posts/hermes-agent-unified-session-gateway/)
 <!-- BLOG:END -->
 
 </details>
@@ -106,8 +106,8 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-11</sub>
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-11</sub>
+- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-12</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-12</sub>
 - [pap-qc-workbench](https://github.com/ntustRay/pap-qc-workbench) — Static PAP cytology-histology QC workbench. Editable professional rules, local XLSX/CSV processing, reports and registries. No backend. <sub>2026-11-10</sub>
 - [web-authentication-component](https://github.com/ntustRay/web-authentication-component) <sub>2026-11-10</sub>
 - [dev-map-lab](https://github.com/ntustRay/dev-map-lab) <sub>2026-11-10</sub>
@@ -121,7 +121,7 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-11-11 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-11-12 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
