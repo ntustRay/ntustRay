@@ -91,11 +91,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
+- [\[News\] Agent Host Protocol 1.1：同一個 Agent Session 如何跨 IDE、手機與 App？](https://ntustray.github.io/mr-blog/posts/agent-host-protocol-cross-device-session/)
+- [\[Guide\] API 面試題：兩人同時儲存，如何避免資料被覆寫？](https://ntustray.github.io/mr-blog/posts/interview-api-etag-lost-update/)
 - [\[News\] GitHub Copilot Evals：Skill 改完真的變好，還是這次剛好成功？](https://ntustray.github.io/mr-blog/posts/copilot-evals-skills-regression/)
 - [\[Guide\] Node.js 面試題：大檔案串流為什麼還會耗盡記憶體？](https://ntustray.github.io/mr-blog/posts/interview-node-stream-backpressure/)
 - [\[Guide\] Next.js 面試題：資料已更新，為什麼頁面還是舊價格？](https://ntustray.github.io/mr-blog/posts/interview-nextjs-cache-product-price/)
-- [\[News\] Laya Guard 0.8.0：Agent 點下付款前，誰先判斷這個動作危險？](https://ntustray.github.io/mr-blog/posts/laya-guard-browser-desktop-action-gate/)
-- [\[News\] Browser Use 1.0.5：Agent 說完成，怎麼知道網站真的接受了？](https://ntustray.github.io/mr-blog/posts/browser-use-1-0-5-run-judge/)
 <!-- BLOG:END -->
 
 </details>
@@ -106,11 +106,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-18</sub>
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-18</sub>
+- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-19</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-19</sub>
+- [rust-auto-shutdown](https://github.com/ntustRay/rust-auto-shutdown) — Windows 自動關機工具：24 小時制時間、每週重複排程、單次倒數與模擬模式，以 Rust 與 egui 製作。 <sub>2026-11-18</sub>
 - [engineer-stock-data](https://github.com/ntustRay/engineer-stock-data) <sub>2026-11-12</sub>
 - [pap-qc-workbench](https://github.com/ntustRay/pap-qc-workbench) — Static PAP cytology-histology QC workbench. Editable professional rules, local XLSX/CSV processing, reports and registries. No backend. <sub>2026-11-10</sub>
-- [web-authentication-component](https://github.com/ntustRay/web-authentication-component) <sub>2026-11-10</sub>
 <!-- REPOS:END -->
 
 <p>
@@ -121,7 +121,7 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-11-18 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-11-19 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
