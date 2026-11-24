@@ -106,11 +106,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-23</sub>
-- [dev-map-lab](https://github.com/ntustRay/dev-map-lab) <sub>2026-11-23</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-24</sub>
+- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-24</sub>
 - [engineer-stock-data](https://github.com/ntustRay/engineer-stock-data) <sub>2026-11-23</sub>
-- [pixel-workbench](https://github.com/ntustRay/pixel-workbench) — Browser-local image workbench: portrait cutout, stickers, face privacy, avatar crops and batch export. <sub>2026-11-23</sub>
 - [github-kanban](https://github.com/ntustRay/github-kanban) <sub>2026-11-23</sub>
+- [dev-map-lab](https://github.com/ntustRay/dev-map-lab) <sub>2026-11-23</sub>
 <!-- REPOS:END -->
 
 <p>
@@ -121,7 +121,7 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-11-23 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-11-24 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
