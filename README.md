@@ -91,11 +91,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
-- [\[Guide\] 全端面試題：高併發 POST API 的 Idempotency 與重試怎麼設計？](https://ntustray.github.io/mr-blog/posts/interview-idempotency-api-design/)
-- [\[News\] OpenAI Agents SDK 0.26：升級前先重建 Docker session，並把 tool side effect 排在 guardrail 後面](https://ntustray.github.io/mr-blog/posts/openai-agents-sdk-026-sandbox-guardrail-upgrade/)
-- [\[News\] Google Mirror Dimension：Browser Agent 的安全 eval，先做一個不會碰到真網路的假網路](https://ntustray.github.io/mr-blog/posts/google-mirror-dimension-browser-agent-evals/)
-- [\[News\] Hugging Face harness adapters：把 Agent harness 也當成模型訓練條件](https://ntustray.github.io/mr-blog/posts/huggingface-harness-adapters-agent-training/)
-- [\[Guide\] 資安面試題：Browser 登入為什麼不能把 OAuth token 直接放 localStorage？](https://ntustray.github.io/mr-blog/posts/interview-oauth-browser-login-security/)
+- [\[Insight\] R Auto Shutdown 01｜關機前為什麼需要一個可操作的倒數](https://ntustray.github.io/mr-blog/posts/auto-shutdown-01-countdown-design/)
+- [\[Guide\] R Auto Shutdown 02｜用模擬模式驗證延後與取消](https://ntustray.github.io/mr-blog/posts/auto-shutdown-02-simulation/)
+- [\[Insight\] R Auto Shutdown 03｜關閉視窗、取消當次與停用排程](https://ntustray.github.io/mr-blog/posts/auto-shutdown-03-schedule-boundaries/)
+- [\[Insight\] 為什麼 DateTime Range Picker 用毫秒當輸入輸出](https://ntustray.github.io/mr-blog/posts/datetime-01-timestamp-first/)
+- [\[Guide\] 把 DateTime Range Picker 的查詢接在 Apply](https://ntustray.github.io/mr-blog/posts/datetime-02-draft-and-apply/)
 <!-- BLOG:END -->
 
 </details>
@@ -106,11 +106,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [analysis-react-vite-tailwind-zustand](https://github.com/ntustRay/analysis-react-vite-tailwind-zustand) <sub>2026-11-25</sub>
-- [todo-list-react-vite](https://github.com/ntustRay/todo-list-react-vite) <sub>2026-11-25</sub>
-- [react-input-frame-zustand-vite](https://github.com/ntustRay/react-input-frame-zustand-vite) <sub>2026-11-25</sub>
-- [Osaka-travel-4days](https://github.com/ntustRay/Osaka-travel-4days) <sub>2026-11-25</sub>
-- [web-authentication-component](https://github.com/ntustRay/web-authentication-component) <sub>2026-11-25</sub>
+- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-26</sub>
+- [interview-path](https://github.com/ntustRay/interview-path) <sub>2026-11-26</sub>
+- [fluent-path](https://github.com/ntustRay/fluent-path) <sub>2026-11-26</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-26</sub>
+- [react-datetime-range-picker](https://github.com/ntustRay/react-datetime-range-picker) — A React date-time range picker. <sub>2026-11-26</sub>
 <!-- REPOS:END -->
 
 <p>
@@ -121,7 +121,7 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-11-25 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-11-26 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
