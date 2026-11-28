@@ -91,11 +91,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 <summary>最新文章（每日更新）</summary>
 
 <!-- BLOG:START -->
+- [\[Guide\] TypeScript 面試題：升到 6.0，為什麼找不到 process？](https://ntustray.github.io/mr-blog/posts/interview-typescript-tsconfig-node-globals/)
+- [\[Guide\] npm 自動發版怎麼驗收？從 CLI tarball 查到 OIDC](https://ntustray.github.io/mr-blog/posts/npm-oidc-release-verification/)
+- [\[Guide\] 用 GA4 做 GitHub Pages 瀏覽量（2）：程式架構、JSON 快取與自動部署](https://ntustray.github.io/mr-blog/posts/ga4-apps-script-page-views-2/)
 - [\[Guide\] JavaScript 面試題：同步或非同步 callback，怎麼統一處理錯誤？](https://ntustray.github.io/mr-blog/posts/interview-javascript-promise-try/)
 - [\[News\] Vercel Tracing 正式推出後，怎麼用 trace 查 Next.js 的慢請求](https://ntustray.github.io/mr-blog/posts/vercel-tracing-production-debugging/)
-- [\[Insight\] R Auto Shutdown 01｜關機前為什麼需要一個可操作的倒數](https://ntustray.github.io/mr-blog/posts/auto-shutdown-01-countdown-design/)
-- [\[Guide\] R Auto Shutdown 02｜用模擬模式驗證延後與取消](https://ntustray.github.io/mr-blog/posts/auto-shutdown-02-simulation/)
-- [\[Insight\] R Auto Shutdown 03｜關閉視窗、取消當次與停用排程](https://ntustray.github.io/mr-blog/posts/auto-shutdown-03-schedule-boundaries/)
 <!-- BLOG:END -->
 
 </details>
@@ -106,11 +106,11 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 [Markdown Reader](https://github.com/ntustRay/markdown-file-reader)：以 Tauri 與 TypeScript 製作的本機 Markdown 編輯 Side Project。
 
 <!-- REPOS:START -->
-- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-27</sub>
-- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-27</sub>
-- [engineer-stock-data](https://github.com/ntustRay/engineer-stock-data) <sub>2026-11-26</sub>
-- [fluent-path](https://github.com/ntustRay/fluent-path) <sub>2026-11-26</sub>
-- [interview-path](https://github.com/ntustRay/interview-path) <sub>2026-11-26</sub>
+- [mr-financial-blog](https://github.com/ntustRay/mr-financial-blog) <sub>2026-11-28</sub>
+- [mr-blog](https://github.com/ntustRay/mr-blog) <sub>2026-11-28</sub>
+- [engineer-stock-data](https://github.com/ntustRay/engineer-stock-data) <sub>2026-11-27</sub>
+- [github-kanban](https://github.com/ntustRay/github-kanban) <sub>2026-11-27</sub>
+- [web-authentication-component](https://github.com/ntustRay/web-authentication-component) <sub>2026-11-27</sub>
 <!-- REPOS:END -->
 
 <p>
@@ -121,7 +121,7 @@ Dev Map Lab 尚未公開部署，會員收信與完整操作流程仍待驗證�
 </details>
 
 <!-- UPDATED:START -->
-<sub>更新於 2026-11-27 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
+<sub>更新於 2026-11-28 · [GitHub Actions 每日更新](https://github.com/ntustRay/ntustRay/actions/workflows/update-profile.yml).</sub>
 <!-- UPDATED:END -->
 
 <sub>圖示採用 <a href="https://lucide.dev/">Lucide</a>，授權見 <a href="assets/readme/LICENSE-lucide.txt">LICENSE-lucide.txt</a>。</sub>
